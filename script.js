@@ -8,8 +8,8 @@ document.addEventListener("DOMContentLoaded", () => {
   const modalLuces = document.getElementById("modal-luces");
   const modalAutoctonos = document.getElementById("modal-autoctonos");
 
-  // Botones de cerrar
-  const closeButtons = document.querySelectorAll(".close");
+  // Botones de cerrar (hecho más específico para evitar errores)
+  const closeButtons = document.querySelectorAll(".modal .close");
 
   // 🔹 Mostrar modal de Traje de Luces
   btnLuces.addEventListener("click", () => {
