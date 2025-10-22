@@ -3,7 +3,7 @@ body {
   font-family: "Segoe UI", sans-serif;
   margin: 0;
   padding: 0;
-  background-image: url("images.png"); /* 🔸 Cambia por tu imagen real */
+  background-image: url("images.png"); /* 🔸 CORREGIDO: El nombre del archivo es .jpg */
   background-size: cover; /* hace que cubra toda la pantalla */
   background-position: center;
   background-repeat: no-repeat;
