@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Puntajes - Trajes y Autóctonos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- 🔹 Contenedor principal con botones -->
+  <div class="main-container">
+    <div class="card">
+      <h2>Traje de Luces</h2>
+      <button id="btnLuces">Ver Puntajes</button>
+    </div>
+    <div class="card">
+      <h2>Autóctonos</h2>
+      <button id="btnAutoctonos">Ver Puntajes</button>
+    </div>
+  </div>
+
+  <!-- 🔹 Modal: Traje de Luces -->
+  <div id="modalLuces" class="modal">
+    <div class="modal-content">
+      <span class="close" id="closeLuces">&times;</span>
+      <h3>Puntajes - Traje de Luces</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Conjunto</th>
+            <th>Estadio</th>
+            <th>Parada</th>
+            <th>Puntaje</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>001</td>
+            <td>Reyes Caporales</td>
+            <td>3:20</td>
+            <td>3:50</td>
+            <td>98</td>
+          </tr>
+          <tr>
+            <td>002</td>
+            <td>Caporales San Carlos</td>
+            <td>3:15</td>
+            <td>3:40</td>
+            <td>95</td>
+          </tr>
+          <tr>
+            <td>003</td>
+            <td>Diablada Bellavista</td>
+            <td>3:10</td>
+            <td>3:35</td>
+            <td>93</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- 🔹 Modal: Autóctonos -->
+  <div id="modalAutoctonos" class="modal">
+    <div class="modal-content">
+      <span class="close" id="closeAutoctonos">&times;</span>
+      <h3>Puntajes - Autóctonos</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Conjunto</th>
+            <th>Puntaje</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Qhantati Ururi</td><td>97</td></tr>
+          <tr><td>Los Hijos del Sol</td><td>94</td></tr>
+          <tr><td>Waca Waca</td><td>92</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- 🔹 Script principal -->
+  <script src="script.js"></script>
+</body>
+</html>
